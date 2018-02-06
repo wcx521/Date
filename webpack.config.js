@@ -5,8 +5,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var htmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
-        common: ['./src/js/*.js'],
-        index: './src/js/index.js'
+        common: ['./src/js/calendar.js'],
+        calendar: './src/js/index.js'
     },
     output: {
         filename: 'js/[name].js',
@@ -20,7 +20,7 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.less/,
+                test: /\.less$/,
                 loader: ExtractTextPlugin.extract(['css-loader','postcss-loader','less-loader'])
             }
         ]

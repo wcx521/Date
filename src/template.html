@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-    <div>dkldfkldsfkldsf</div>
-    <h1>dsfkljfdskldfs</h1>
-    <div id="load" class="js_load"></div>
+    <div class="calendar">
+        <a href="javascript:;" id="prev-year"><<</a>
+        <span><i>2018</i>年</span>
+        <a href="javascript:;" id="next-year">>></a>
+        <a href="javascript:;" id="prev-month"><</a>
+        <span><i>2</i>月</span>
+        <a href="javascript:;" id="next-month">></a>
+        <table class="table" id="table" border="0" cellpadding="0"></table>
+    </div>
 </body>
 </html>

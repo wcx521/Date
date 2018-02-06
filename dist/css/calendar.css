@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  position: relative;
+}
+ul,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+}
+.calendar {
+  text-align: center;
+  width: 420px;
+  margin: 100px auto;
+}
+.calendar a {
+  padding: 5px;
+  display: inline-block;
+  width: 20px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table tr {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.table tr .play-day {
+  color: #f00;
+}
+.table tr .disable {
+  color: #aaa;
+}
+.table tr .today {
+  color: #0f0;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjc3MvY2FsZW5kYXIuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
